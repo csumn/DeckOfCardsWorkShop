@@ -9,5 +9,6 @@ public class Main{
 		deckOfCards.displayArray(DeckOfCards.deckOfCard);		
 		deckOfCards.seqOfPlayer(deckOfCards.numOfPlayers());
 		System.out.println(DeckOfCards.playerList);
+		deckOfCards.shuffleCards();
 	}
 }
